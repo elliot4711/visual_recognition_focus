@@ -13,7 +13,7 @@ while(1):
         kernel = np.ones((3,3),np.uint8)
 
         #define roi which is a small square on screen
-        roi=frame[200:800, 200:800]
+        roi=frame[100:300, 100:300]
 
 
         cv2.rectangle(frame,(100,100),(300,300),(0,255,0),0)
